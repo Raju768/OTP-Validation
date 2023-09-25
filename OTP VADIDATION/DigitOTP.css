@@ -1,0 +1,92 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box; 
+font-family: "inter",sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+}
+.container{
+    width: 300px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+
+}
+h4{
+    font-size: 20px;
+    color: #121212;
+
+}
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.input_feild_box input{
+    border: none;
+    max-width: 20%;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    font-size: 15px;
+   justify-content: space-around;
+    
+
+
+}
+
+
+
+
+
+   
+.input_feild_box input:focus{
+    outline: 1.5px solid #e0e0e0;
+    outline-offset: 2px;
+    
+}
+form button{
+    margin-top: 25px;
+    width: 92%;
+    color: #525252;
+    font-size: 20px;
+    padding:10px 0;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    pointer-events: none;
+    cursor: pointer;
+    background: #e0e0e0;
+    transition: all 0.2s ease;
+
+
+}
+form button.active{
+    background-color: #f0f0f0;
+    pointer-events: auto;
+    color: #000000;
+
+}
+form button :hover{
+    background-color: #e0e0e0;
+
+}
